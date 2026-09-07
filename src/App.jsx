@@ -17,13 +17,13 @@ function App() {
         
         {/* Main content changes based on the URL */}
         <main className="grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
+         <Routes>
+            <Route path="/codingninjas-clone" element={<Home />} />
             <Route path="/courses" element={<ExploreCourses />} />
             <Route path="/course/:id" element={<CourseDetails />} />
             <Route path="/practice" element={<Practice/>}/>
             <Route path="/events" element={<Events/>}/>
-          </Routes>
+          </Routes>  
         </main>
         
         {/* Footer sits at the bottom across all routes */}

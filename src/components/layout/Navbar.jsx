@@ -14,7 +14,7 @@ const Navbar = () => {
             
             {/* Logo */}
             <div className="shrink-0 flex items-center">
-              <Link to="/" className="font-bold text-2xl text-orange-500 cursor-pointer">
+              <Link to="/codingninjas-clone" className="font-bold text-2xl text-orange-500 cursor-pointer">
                 CodingNinjas
               </Link>
             </div>
